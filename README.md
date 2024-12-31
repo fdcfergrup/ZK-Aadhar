@@ -23,10 +23,11 @@ https://zk-aadhaar-metaschool.vercel.app/
 
 ## Use Cases
 
-- Users can verify their identity using Aadhaar without revealing their actual Aadhaar data, ensuring privacy and security while proving their identity.
-- Businesses can authenticate users by verifying their identity proofs, all while respecting the user's privacy and not accessing sensitive Aadhaar details.
-- The verification proofs are securely stored on the blockchain, making them tamper-proof, accessible, and immutable, ensuring the integrity of the data.
-- Users have control over which parts of their identity they wish to verify, allowing them to disclose only the necessary details without revealing their full Aadhaar data.
+- **User Identity Verification:** Verify your Aadhaar identity without revealing personal data.
+- **Business Authentication:** Businesses can authenticate users while respecting privacy.
+- **Tamper-Proof Blockchain Storage:** Verification proofs are securely stored on the blockchain.
+- **Selective Identity Verification:** Users can choose which parts of their identity to verify.
+
 
 
 ## Installation Steps
