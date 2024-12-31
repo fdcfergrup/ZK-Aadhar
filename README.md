@@ -1,4 +1,4 @@
-# Anon Aadhaar Vite Setup
+# ZK Aadhaar
 
 Anonymous Aadhaar is a zero-knowledge proof solution that allows users to prove their Aadhaar identity while maintaining complete privacy and anonymity. This implementation uses React.js with Vite for a fast and efficient development experience.
 
