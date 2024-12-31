@@ -90,12 +90,6 @@ This project prioritizes user privacy and security:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Support
+## Contact
 
-For support, please open an issue in the GitHub repository or contact the maintainers.
-
-## Acknowledgments
-
-- Anon Aadhaar Team
-- Privacy & Identity Contributors
-- Zero Knowledge Proof Community
+For any questions or support, open an issue in the [GitHub repository](https://github.com/0xmetaschool/ZK-Aadhaar/issues).
