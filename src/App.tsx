@@ -12,7 +12,6 @@ import AnonAadhaarWrapper from "./components/AnonAadhaarWrapper";
 import ProofVerifier from "./components/ProofVerifier";
 import LandingPage from "./components/LandingPage";
 
-// const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS;
 const CONTRACT_ADDRESS= "0xA2DD8Fe6933120bF47B2130A46010519C1ef5460";
 export default function App() {
   const [anonAadhaar] = useAnonAadhaar();
@@ -29,7 +28,7 @@ export default function App() {
   const [isGeneratingProof, setIsGeneratingProof] = useState(false);
   const [mode, setMode] = useState<'generate' | 'verify' | null>(null);
   const [showApp, setShowApp] = useState(false);
-
+// const CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS;
   useEffect(() => {
     const initializeBlockchainService = async () => {
       try {
