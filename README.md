@@ -28,24 +28,18 @@ Anonymous Aadhaar is a zero-knowledge proof solution that allows users to prove 
 ## Installation Steps
 1. Clone the repository:
     ```bash
-    git clone [your-repo-url]
+    git clone https://github.com/0xmetaschool/ZK-Aadhaar
     ```
 
 2. Install Dependencies:
     ```bash
-    cd anon-aadhaar-vite-setup
-    yarn install
+    cd ZK-Aadhaar
+    npm i --y
     ```
 
-3. Configure Environment:
-    Create a `.env` file in the root directory and add your app ID:
-    ```
-    NEXT_PUBLIC_APP_ID=your_app_id_here
-    ```
-
-4. Start the Development Server:
+3. Start the Development Server:
     ```bash
-    yarn dev
+    npm run dev
     ```
 
 Open your browser and navigate to http://localhost:3000
