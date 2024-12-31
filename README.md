@@ -22,11 +22,12 @@ https://zk-aadhaar-metaschool.vercel.app/
 - **Development:** Node.js
 
 ## Use Cases
-- Zero Knowledge identity verification
-- Privacy-preserving authentication
-- Decentralized applications requiring Aadhaar verification
-- Services needing age verification without data exposure
-- Secure voting systems
+
+- Users can verify their identity using Aadhaar without revealing their actual Aadhaar data, ensuring privacy and security while proving their identity.
+- Businesses can authenticate users by verifying their identity proofs, all while respecting the user's privacy and not accessing sensitive Aadhaar details.
+- The verification proofs are securely stored on the blockchain, making them tamper-proof, accessible, and immutable, ensuring the integrity of the data.
+- Users have control over which parts of their identity they wish to verify, allowing them to disclose only the necessary details without revealing their full Aadhaar data.
+
 
 ## Installation Steps
 1. Clone the repository:
@@ -63,10 +64,21 @@ Open your browser and navigate to http://localhost:5173
 
 ## How to Use
 
-1. **Connect:** Start the application and connect your wallet
-2. **Upload:** Provide your Aadhaar PDF for verification
-3. **Verify:** Complete the zero-knowledge proof generation
-4. **Done:** Receive your Zero Knowledge verification proof
+1. **Connect Your Wallet:**  
+   Start the application and connect your Web3 wallet (such as MetaMask) to interact with the system.
+
+2. **Upload Aadhaar PDF:**  
+   Provide your Aadhaar PDF file through the secure interface for verification. Your data is never exposed.
+
+3. **Generate Proof:**  
+   The application will generate a zero-knowledge proof of your Aadhaar data, which ensures that your personal information is kept private.
+
+4. **Proof on Blockchain:**  
+   The zero-knowledge proof is then stored on the blockchain for verification purposes.
+
+5. **Verify Later:**  
+   Anyone can verify your identity proof later without ever accessing or viewing your original Aadhaar data.
+
 
 ## Development
 
