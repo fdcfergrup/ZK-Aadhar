@@ -7,12 +7,12 @@ https://zk-aadhaar-metaschool.vercel.app/
 
 ## Features
 
-- **Zero-Knowledge Proofs:** Verify Aadhaar identity without revealing personal information
-- **Privacy-First:** No storage of personal data or Aadhaar details
-- **User-Friendly Interface:** Simple and intuitive process for identity verification
-- **Fast Development:** Built with Vite for quick development and hot module replacement
-- **Type Safety:** Implemented with TypeScript for better code quality
-- **Modern Stack:** Uses React.js and latest web technologies
+- **Verify Identity Privately:** Verify your Aadhaar identity without revealing actual Aadhaar data.
+- **Blockchain Proof Storage:** Secure storage and verification of proofs on the blockchain.
+- **Client-Side ZK Proof Generation:** Generate zero-knowledge proofs on the client side for maximum privacy.
+- **On-Chain Proof Verification:** Verify previously generated proofs directly on the blockchain.
+- **No Aadhaar Data Storage:** Only zero-knowledge proofs are stored, with no access to original Aadhaar data.
+
 
 ## Technologies Used
 - **Frontend:** React.js with TypeScript
