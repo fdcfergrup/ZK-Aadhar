@@ -1,6 +1,6 @@
 # ZK Aadhaar
 
-Anonymous Aadhaar is a zero-knowledge proof solution that allows users to prove their Aadhaar identity while maintaining complete privacy and anonymity. This implementation uses React.js with Vite for a fast and efficient development experience.
+Zero Knowledge Aadhaar is a zero-knowledge proof solution that allows users to prove their Aadhaar identity while maintaining complete privacy and anonymity. This implementation uses React.js with Vite for a fast and efficient development experience.
 
 ## Features
 
@@ -19,7 +19,7 @@ Anonymous Aadhaar is a zero-knowledge proof solution that allows users to prove 
 - **Development:** Node.js
 
 ## Use Cases
-- Anonymous identity verification
+- Zero Knowledge identity verification
 - Privacy-preserving authentication
 - Decentralized applications requiring Aadhaar verification
 - Services needing age verification without data exposure
@@ -42,14 +42,14 @@ Anonymous Aadhaar is a zero-knowledge proof solution that allows users to prove 
     npm run dev
     ```
 
-Open your browser and navigate to http://localhost:3000
+Open your browser and navigate to http://localhost:5173
 
 ## How to Use
 
 1. **Connect:** Start the application and connect your wallet
 2. **Upload:** Provide your Aadhaar PDF for verification
 3. **Verify:** Complete the zero-knowledge proof generation
-4. **Done:** Receive your anonymous verification proof
+4. **Done:** Receive your Zero Knowledge verification proof
 
 ## Development
 
