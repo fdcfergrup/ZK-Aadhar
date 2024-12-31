@@ -31,7 +31,7 @@ https://zk-aadhaar-metaschool.vercel.app/
 ## Installation Steps
 1. Clone the repository:
     ```bash
-    git clone https://github.com/0xmetaschool/ZK-Aadhaar
+    git clone https://github.com/0xmetaschool/ZK-Aadhaar.git
     ```
 
 2. Install Dependencies:
