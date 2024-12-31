@@ -81,7 +81,7 @@ Open your browser and navigate to http://localhost:5173
    Anyone can verify your identity proof later without ever accessing or viewing your original Aadhaar data.
 
 
-## Development
+## Contributing
 
 To contribute to this project:
 
