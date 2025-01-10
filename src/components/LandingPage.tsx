@@ -19,7 +19,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onLaunchApp }) => {
                 <img src="/logo.svg" alt="Logo" className="h-10 w-10 relative" />
               </div>
               <span className="font-bold text-2xl text-white group-hover:text-blue-400 transition-all duration-300">
-                ZK Aadhaar
+                ZK Aadhar
               </span>
             </div>
             <button
@@ -53,7 +53,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onLaunchApp }) => {
                   </span>
                 </h1>
                 <p className="mt-8 text-lg text-gray-400 animate-fadeIn leading-relaxed max-w-2xl mx-auto lg:mx-0" style={{ animationDelay: '0.3s' }}>
-                  Experience the future of identity verification. Verify your Aadhaar securely while maintaining 
+                  Experience the future of identity verification. Verify your Aadhar securely while maintaining 
                   complete privacy through advanced zero-knowledge proofs.
                 </p>
               </div>
@@ -94,7 +94,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onLaunchApp }) => {
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-5"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-white mb-4">Why Choose ZK Aadhaar?</h2>
+            <h2 className="text-4xl font-bold text-white mb-4">Why Choose ZK Aadhar?</h2>
             <p className="text-xl text-gray-400">Experience the future of identity verification</p>
           </div>
 

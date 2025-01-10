@@ -6,7 +6,7 @@ const Footer = () => {
   useEffect(() => {
     const fetchStarCount = async () => {
       try {
-        const response = await fetch('https://api.github.com/repos/0xmetaschool/ZK-Aadhaar');
+        const response = await fetch('https://api.github.com/repos/0xmetaschool/ZK-Aadhar');
         const data = await response.json();
         setStarCount(data.stargazers_count);
       } catch (error) {
@@ -27,11 +27,11 @@ const Footer = () => {
               Free open source web3 template
             </div>
             <div className="text-white mb-4 text-2xl font-bold font-sans">
-              Build your own ZK Aadhaar
+              Build your own ZK Aadhar
             </div>
             <div className="flex items-center gap-4">
               <a
-                href="https://github.com/0xmetaschool/ZK-Aadhaar/fork"
+                href="https://github.com/0xmetaschool/ZK-Aadhar/fork"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-200 transition-colors text-xs"

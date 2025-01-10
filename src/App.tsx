@@ -242,7 +242,7 @@ export default function App() {
                     <img src="/logo.svg" alt="Logo" className="h-10 w-10 relative" />
                   </div>
                   <span className="font-bold text-2xl text-white group-hover:text-blue-400 transition-all duration-300">
-                    ZK Aadhaar
+                    ZK Aadhar
                   </span>
                 </div>
                 <button
@@ -273,7 +273,7 @@ export default function App() {
                     <div className="relative p-8 bg-[#0c1f35] rounded-lg border border-blue-500/10 hover:border-blue-500/30 transition-all duration-300">
                       <h3 className="text-xl font-semibold mb-4 text-gray-200 group-hover:text-cyan-400 transition-colors">Option 1: New User</h3>
                       <p className="text-gray-400 group-hover:text-gray-300 transition-colors">
-                        Generate a new anonymous proof using your Aadhaar card and store it on-chain.
+                        Generate a new anonymous proof using your Aadhar card and store it on-chain.
                       </p>
                     </div>
                   </div>
@@ -312,7 +312,7 @@ export default function App() {
                     <div className="relative space-y-6 pl-12">
                       {renderStep(1, "Install MetaMask", currentStep > 1)}
                       {renderStep(2, "Connect Wallet", currentStep > 2)}
-                      {renderStep(3, "Provide Aadhaar QR", currentStep > 3)}
+                      {renderStep(3, "Provide Aadhar QR", currentStep > 3)}
                       {renderStep(4, "Generate Proof", currentStep > 4)}
                       {renderStep(5, "Store on Blockchain", currentStep > 5)}
                     </div>
@@ -320,7 +320,7 @@ export default function App() {
 
                   <div className="mt-8 space-y-4">
                     <p className="text-gray-400">
-                      Prove your Identity anonymously using your Aadhaar card.
+                      Prove your Identity anonymously using your Aadhar card.
                       Your proof will be securely stored on Sepolia testnet.
                     </p>
 

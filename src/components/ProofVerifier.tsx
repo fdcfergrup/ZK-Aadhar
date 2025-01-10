@@ -47,7 +47,7 @@ const ProofVerifier: React.FC<ProofVerifierProps> = ({ blockchainService }) => {
 
           // Validate proof format
           if (!proofData.proof || !proofData.proof.type || proofData.proof.type !== 'anon-aadhaar') {
-            throw new Error('Invalid proof format. Must be an Anon Aadhaar proof.');
+            throw new Error('Invalid proof format. Must be an Anon Aadhar proof.');
           }
 
           // Store proof details for display
