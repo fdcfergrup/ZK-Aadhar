@@ -48,11 +48,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onLaunchApp }) => {
                   <span className="block text-gray-200">
                     Verification
                   </span>
-                  <span className="block bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent mt-2">
+                  <span className="block bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent mt-1">
                     with Zero Knowledge
                   </span>
                 </h1>
-                <p className="mt-6 text-lg text-gray-400 animate-fadeIn leading-relaxed max-w-2xl mx-auto lg:mx-0" style={{ animationDelay: '0.3s' }}>
+                <p className="mt-8 text-lg text-gray-400 animate-fadeIn leading-relaxed max-w-2xl mx-auto lg:mx-0" style={{ animationDelay: '0.3s' }}>
                   Experience the future of identity verification. Verify your Aadhaar securely while maintaining 
                   complete privacy through advanced zero-knowledge proofs.
                 </p>
@@ -117,10 +117,10 @@ const LandingPage: React.FC<LandingPageProps> = ({ onLaunchApp }) => {
               }
             ].map((feature, index) => (
               <div key={index} className="group relative">
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-300"></div>
-                <div className="relative p-8 bg-[#0a1929] ring-1 ring-gray-700/50 rounded-lg leading-none space-y-6">
-                  <div className="text-4xl">{feature.icon}</div>
-                  <h3 className="text-xl font-semibold text-white">{feature.title}</h3>
+                <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl blur-xl opacity-20 group-hover:opacity-60 transition duration-500 ease-in-out"></div>
+                <div className="relative p-8 bg-[#0a1929]/80 backdrop-blur-sm rounded-2xl leading-none space-y-6 transform transition duration-300 hover:translate-y-[-4px] hover:scale-[1.02] border border-blue-500/10 flex flex-col items-center text-center">
+                  <div className="text-4xl rounded-xl p-3 w-fit">{feature.icon}</div>
+                  <h3 className="text-xl font-semibold text-white group-hover:text-blue-400 transition-colors duration-300">{feature.title}</h3>
                   <p className="text-gray-400">{feature.description}</p>
                 </div>
               </div>

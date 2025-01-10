@@ -233,18 +233,23 @@ export default function App() {
       ) : (
         <div className="min-h-screen bg-[#0a1929] text-gray-200">
           {/* Header */}
-          <header className="bg-[#0a1929]/80 backdrop-blur-md border-b border-blue-500/10 sticky top-0 z-50">
+          <header className="bg-[#0a1929]/80 backdrop-blur-md border-b border-blue-500/10 sticky top-0 z-50 transition-all duration-300">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <div className="flex justify-between items-center h-16">
-                <h1 className="text-xl font-bold text-gray-200">ZK Aadhaar Verification</h1>
+              <div className="flex justify-between items-center h-20">
+                <div className="flex items-center gap-4 group cursor-pointer">
+                  <div className="relative">
+                    <div className="absolute -inset-2 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full blur-lg opacity-20 group-hover:opacity-40 transition-opacity duration-300"></div>
+                    <img src="/logo.svg" alt="Logo" className="h-10 w-10 relative" />
+                  </div>
+                  <span className="font-bold text-2xl text-white group-hover:text-blue-400 transition-all duration-300">
+                    ZK Aadhaar
+                  </span>
+                </div>
                 <button
                   onClick={() => setShowApp(false)}
-                  className="text-gray-400 hover:text-gray-200 transition-colors flex items-center gap-2"
+                  className="inline-flex items-center px-6 py-2.5 text-sm font-medium rounded-full text-white bg-blue-600 hover:bg-blue-700 transition-all duration-300 hover:scale-105"
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-                  </svg>
-                  Back to Home
+                  ← Back to Home
                 </button>
               </div>
             </div>
